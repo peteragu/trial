@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="flex2.css">
+    <link rel="stylesheet" href="swipe.css">
+<body>
+    <div class="entire-body">
+        <div class="benz-logo-position">
+            <img src="images/logo.jpeg" alt="benz logo">
+            <p id="benz-paragraph">
+                Mercedes-Benz
+            </p>
+        </div>
+        <hr id="line-row">
+        <!-- for the nav buttons -->
+
+    <div class="nav-bar">
+        
+            <button class="btn"><a href="#"> <i class="fa-solid fa-car"></i>  Our Models</a>
+            <div class="dropdown-content">
+                
+                <li><a href="#">Hatchback<i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub-dropdown">
+                        <li><a href="#">A-Class Hatchback</a></li>
+                    </ul>
+                </li>
+                <!-- end of hatchback dropdown -->
+                <li><a href="#">Sedans <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub-dropdown">
+                        <li><a href="#">A-Class Sedan</a></li>
+                        <li><a href="#">C-Class Sedan</a></li>
+                        <li><a href="#">The new E-Class Sedan</a></li>
+                        <li><a href="#">S-Class Sedan</a></li>
+                        <li><a href="#">Mercedes-Maybach S-Class</a></li>
+                    </ul>
+                </li>
+                <!-- end of sedans dropdown -->
+                <li><a href="#">SUVs <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub-dropdown">
+                        <li><a href="#">GLA</a></li>
+                        <li><a href="#">GLB</a></li>
+                        <li><a href="#">GLC SUV</a></li>
+                        <li><a href="#">GLC Coupé</a></li>
+                    </ul>
+                </li>
+                <!-- end of suvs dropdown -->
+                <li><a href="#">Coupes <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub-dropdown">
+                        <li><a href="#">CLA Coupé</a></li>
+                        <li><a href="#">CLE Coupé</a></li>
+                        <li><a href="#">Mercedes-AMG GT Coupé</a></li>
+                    </ul>
+                </li>
+                <!-- end of coupes dropdown -->
+                <li><a href="#">Cabriolets <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub-dropdown">
+                        <li><a href="#">SL Roadster</a></li>
+                    </ul>
+                </li>
+                <!-- end of cabriolet dropdown -->
+                <li><a href="#">MPVs <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="sub-dropdown">
+                        <li><a href="#">The new V-Class</a></li>
+                    </ul>
+                </li>
+            
+            </div>
+            </button>
+            <button class="btn"><a href="#">Buy</a>
+            <div class="dropdown1-content">
+                <li><a href="#">Current Offers</a></li>
+                <li><a href="#">Find a Showroom</a></li>
+                </div>
+            </button>
+                <button class="btn"><a href="#">Services</a>
+            <div class="dropdown2-content">
+                <li><a href="#">Book a Service</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Lifestyle Collections</a></li>
+                    <li><a href="#">GenuineParts</a></li>
+                    <li><a href="#">Digital Owner's Manuals</a></li>
+                    <li><a href="#">Recalls</a></li>
+                    <li><a href="#">Warranty</a></li>
+        
+            </div>
+        </button>
+            <button class="btn"><a href="#">Our Brands</a>
+            <div class="dropdown3-content">
+                <li><a href="#">Current Offers</a></li>
+                <li><a href="#">Find a Showroom</a></li>
+              
+            </div>
+        </button>
+    
+    
+            <button class="btn"><a href="#">Technology</a>
+        <div class="dropdown4-content">
+            <li><a href="#">Ambition 2039</a></li>
+            <li><a href="#">Electromobility</a></li>
+            <li><a href="#">Innovation</a></li>
+            <li><a href="#">History and Brand World</a></li>
+            <li><a href="#">Design & Concept Vehicles</a></li>
+            <li><a href="#">Dolby Atmos</a></li>
+            <li><a href="#">Defining Class</a></li>
+    
+        </div>
+    </button>
+
+    <div class="menu-bar">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</div>
+        <div class="contain">
+        
+            
+            <div class="container">
+                <h1 id="h1">The new GLE Coup</h1>
+                <p class="know-your-way">Know your way.</p>
+    
+                <button class="first-button">Contact Dealer</button>
+                <button class="second-button">Learn More</button>
+            </div>
+                </div>
+        
+                <div>
+                    <p id="model">
+                        Our Models
+                    </p>
+                    <div class="navbar">
+                        <ul class="tabs">
+                            <li id="curve-left" class="tab-item active" data-target="sedans"><span> Sedans</span></li>
+                            <li class="tab-item" data-target="suvs"><span>SUVs & Crossovers</span></li>
+                            <li class="tab-item" data-target="dual-use"><span>Coupes</span></li>
+                            <li class="tab-item" data-target="dual-one-use"><span> Cabriolets & Roadsters</span></li>
+                            <li class="tab-item" data-target="dual-two-use"><span> Hatchback</span></li>
+                            <li id="curve-right" class="tab-item" data-target="chassis-platform">MPV</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="button-container">
+                        <li class="sed"> <a href="#">Sedans</a></li>
+                        <li class="sed-all" ><a href='' class="move">SUVs & Crossovers </a> </li>|
+                        <li class="sed-all"><a href="#">Coupes</a></li>|
+                        <li class="sed-all"><a href="#">Cabriolets & Roadsters</a></li>|
+                        <li class="sed-all"><a href="#">Hatchbacks </a> </li>|
+                        <li class="sed-all-last"><a href="#">MPVs</a></li>
+                    </div> -->
+        </ul>
+    </div>
+
+    <section>
+
+            <!-- Swiper -->
+            <div id="sedans" class="swiper tab-content active">
+              <div class="swiper-wrapper ">
+                <div class="swiper-slide">
+                    <div class="sub-swiper-slide ">
+                    <img class="image-style" src="images/a200.webp" alt="">
+                    <p class="swiper-sedan">A-Class Sedan</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/cclasssedan.webp" alt="">
+                    <p class="swiper-sedan">C-Class</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>    
+                </div>
+                <div class="swiper-slide">
+ 
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/e_200.webp" alt="">
+                    <p class="swiper-sedan">E-Class</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/sclassmaybach.webp" alt="">
+                    <p class="swiper-sedan">S-Class</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/sclasssedan.webp" alt="">
+                    <p class="swiper-sedan">Mercedes-Maybach S-Class</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+              </div>
+
+                 <!-- enf of first -->
+             <div id="suvs" class="swiper tab-content">
+              <div  class="swiper-wrapper ">
+                <div class="swiper-slide">
+                    <div class="sub-swiper-slide ">
+                    <img class="image-style" src="images/gla_200.webp" alt="">
+                    <p class="swiper-sedan">GLA</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/glb_200.webp" alt="">
+                    <p class="swiper-sedan">GLB</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>    
+                </div>
+                <div class="swiper-slide">
+ 
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/glc_suv_200.webp" alt="">
+                    <p class="swiper-sedan">GLC</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/glc coupe.png" alt="">
+                    <p class="swiper-sedan">GLC Coupé</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/gle450.webp" alt="">
+                    <p class="swiper-sedan">GLE</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/gle_4matic_coup_.webp" alt="">
+                    <p class="swiper-sedan">GLE Coupe</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/gls_350_d.webp" alt="">
+                    <p class="swiper-sedan">GLS</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/gclass.webp" alt="">
+                    <p class="swiper-sedan">G-Class</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="sub-swiper-slide">
+                    <img class="image-style" src="images/gls_maybach.webp" alt="">
+                    <p class="swiper-sedan">Mercedes-Maybach GLS</p>
+                    <p class="swiper-p"><a href="#">Learn More</a></p>
+                    <button class="swiper-button">Contact Dealer</button>
+                    </div>
+                </div>
+                
+                
+              </div>
+              <div class="swiper-button-next"></div>
+                 <div class="swiper-button-prev"></div>
+           
+            </div>
+            <!-- end of 2nd -->
+            <div id="dual-use" class="swiper tab-content">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="sub-swiper-slide ">
+                      <img class="image-style" src="images/cla_200_coup_.webp" alt="">
+                      <p class="swiper-sedan">CLA Coupé</p>
+                      <p class="swiper-p"><a href="#">Learn More</a></p>
+                      <button class="swiper-button">Contact Dealer</button>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="sub-swiper-slide">
+                      <img class="image-style" src="images/cle coupe.webp" alt="">
+                      <p class="swiper-sedan">Cle Coupé</p>
+                      <p class="swiper-p"><a href="#">Learn More</a></p>
+                      <button class="swiper-button">Contact Dealer</button>
+                      </div>    
+                  </div>
+                  <div class="swiper-slide">
+   
+                      <div class="sub-swiper-slide">
+                      <img class="image-style" src="images/gt4doorcoupe.webp" alt="">
+                      <p class="swiper-sedan">Mercedes</p>
+                      <p class="swiper-p"><a href="#">Learn More</a></p>
+                      <button class="swiper-button">Contact Dealer</button>
+                      </div>
+                  </div>
+                  
+                  
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+                   </div>
+            <!-- end of 2nd -->
+            <div id="dual-one-use" class="swiper tab-content reason2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="sub-swiper-slide ">
+                      <img class="image-style" src="images/sl.webp" alt="">
+                      <p class="swiper-sedan">SL-Roadster</p>
+                      <p class="swiper-p"><a href="#">Learn More</a></p>
+                      <button class="swiper-button">Contact Dealer</button>
+                      </div>
+                  </div>
+                 
+                  </div>
+                  
+                  
+                  
+                
+                <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+                </div>
+            <!-- end of 2nd -->
+            <div id="dual-two-use" class="swiper tab-content reason">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="sub-swiper-slide ">
+                      <img class="image-style" src="images/a180.webp" alt="">
+                      <p class="swiper-sedan">A-Class Hatchback</p>
+                      <p class="swiper-p"><a href="#">Learn More</a></p>
+                      <button class="swiper-button">Contact Dealer</button>
+                      </div>
+                  </div>
+                 
+                  
+                  
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                   <div class="swiper-button-prev"></div>
+                </div>
+                <!-- end of 3rd -->
+            <div id="chassis-platform" class="swiper tab-content reason2 ">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="sub-swiper-slide ">
+                      <img class="image-style" src="images/v-class.webp" alt="">
+                      <p class="swiper-sedan">V- Class</p>
+                      <p class="swiper-p"><a href="#">Learn More</a></p>
+                      <button class="swiper-button">Contact Dealer</button>
+                      </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+  
+                   
+                   <!-- Swiper JS -->
+                   
+                   <script src="style.js"></script>
+                   <script src="swiper.js"></script>
+                   <script src="swipe.js"></script>
+            
+        </section>
+        
+        <section class="sect-sport">
+                <h1 class="sportlight-heading">In the Sportlight </h1>
+                <p class="Sportlight-paragraph">Discover the latest from Mercedes-Benz.</p>
+            </section>
+            <div class="real">            <!-- second swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper swiper-container">
+                  <div class="swiper-slide-flex">
+                    <div class="rest-1">
+                      <div class="dark-bg">
+                      <h1 class="head">Ambition 2039</h1>
+                      <p class="dark-p">A core element of our business strategy</p>
+                      <button class="btn-1">Explore Now</button>
+                      <button class="btn-2">Enquire Now</button>
+                    </div>
+
+                    </div>
+
+                </div>
+                <!-- end of ambition 2039 -->
+                <div class="swiper-slide-flex">
+                    <div class="rest-2">
+                    <div class="dark-bg">
+                        <h1 class="head">Defining Class</h1>
+                        <p class="dark-p">Since 1886.</p>
+                        <button class="btn-1">Explore Now</button>
+                        <button class="btn-2">Enquire Now</button>
+                    </div>
+                </div>
+                </div>
+                <!-- end of 2nd slide -->
+                <div class="swiper-slide-flex">
+                    <div class="rest-3">
+                    <div class="dark-bg">
+                        <h1 class="head">Electromobility</h1>
+                        <p class="dark-p">Electromobility at Mercedes-Benz.</p>
+                        <button class="btn-1">Explore Now</button>
+                        <button class="btn-2">Enquire Now</button>
+                    </div>
+                </div>
+                <!-- end of 3rd slide -->
+                </div>
+                <div class="swiper-slide-flex">
+                    <div class="rest-4">
+                        <div class="dark-bg">
+                            <h1 class="head">Dolby Atmos</h1>
+                            <p class="dark-p">Driving a new sound experience</p>
+                            <button class="btn-1">Explore Now</button>
+                            <button class="btn-2">Enquire Now</button>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end of 4th- slide -->
+                <div class="swiper-slide-flex">
+
+                    <div class="rest-5">
+                        <div class="dark-bg">
+                            <h1 class="head">Night Series</h1>
+                            <p class="dark-p">Welcome to beyond </p>
+                            <button class="btn-1">Explore Now</button>
+                            <button class="btn-2">Enquire Now</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide-flex">
+                    
+                    <div class="rest-6">
+                        <div class="dark-bg">
+                            <h1 class="head">Night Series</h1>
+                            <p class="dark-p">Welcome to beyond </p>
+                            <button class="btn-1">Explore Now</button>
+                            <button class="btn-2">Enquire Now</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide-flex">
+                    <div class="rest-7">
+                        <div class="dark-bg">
+                            <h1 class="head">Night Series</h1>
+                            <p class="dark-p">Welcome to beyond </p>
+                            <button class="btn-1">Explore Now</button>
+                            <button class="btn-2">Enquire Now</button>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+              </div>
+              
+              
+              <script src="flex2.js"></script>
+             <script src="flex.js"></script>
+
+
+        <div class="background-container">
+            <div class="sub-background-container">
+                <h1 class="new-e-class">
+                    The all-new E-Class
+                </h1>
+                <p class="e-class-para">Meet the business icon of Mercedes-Benz</p>
+                <button class="btn-class">
+                    Explore now
+                </button>
+            </div>
+            
+        </div>
+</div>
+<h1 class="tools">Shopping Tools</h1>
+<div class="grid-display">
+    <div class="accessories">
+        <img  class="images-style" src="images/wobble_dog.webp" alt="">
+    </div>
+    <div class="book-service">
+        <img class="images-style" src="images/book_of_service.webp" alt="">
+    </div>
+    <div class="showroom">
+        <img class="images-style" src="images/showroom.webp" alt="">
+    </div>
+    <div class="cars">
+        <img class="images-style" src="images/browse_cars.webp" alt="">
+    </div>
+    <div class="current-offers">
+        <img  class="images-style" src="images/4_3_01.webp" alt="">
+    </div>
+    <div class="about-us">
+        <img  class="images-style" src="images/about us.webp" alt="">
+    </div>
+    <div class="vans">
+        <img  class="images-style" src="images/vans.webp" alt="">
+    </div>
+   
+</div>
+<div class="wester-association">
+    <h1 id="last-header">
+        About Us
+    </h1>
+    <p class="th-child">
+        
+Weststar Associates Limited is the Authorized General Distributor for Mercedes-Benz in the Federal Republic of Nigeria. The company’s brand portfolio includes Mercedes-Benz Passenger cars, vans, trucks, and buses. <br>
+<br>
+Also responsible for coordinating the manufacturer’s business activities within Nigeria, Weststar’s portfolio also includes dealer support, marketing, public affairs, training, overall strategic and operative sales developments, and after-sales services. A necessary strategic decision in preparation for the future in a growing market such as Nigeria. <br>
+<br>
+Its main dealerships and service centers are spread all over the country. To ensure seamless dexterity of its workforce, provision has been made for quality training of local staff which in turn, will be supplemented by foreign expertise from the manufacturers’ base.
+    </p>
+<button class="last-btn">Learn More</button>
+</div>
+
+<div class="last-container">
+
+    <a class="up" href="our-models"><i class="fa-solid fa-angle-up"></i>Up</a>
+    <div class="final-list-div">
+    <div class="sub-final-list-div">
+        <h3>Buy</h3>
+        <li class="list"><a href="#">Model Overview</a></li> <br>
+        <li class="list"><a href="#">Mercedes-AMG</a></li>
+        <br>
+        <li class="list"><a href="#">Mercedes-Maybach</a></li>
+    </div>
+    <div class="sub-final-list-div">
+        <h3>Buying Guide</h3>
+        <li class="list"><a href="#">Current Vehicle Offers</a></li> <br>
+        <li class="list"><a href="#">Find a Showroom</a></li>
+        <br>
+        <li class="list"><a href="#">Contact us</a></li>
+    </div>
+    <div class="sub-final-list-div">  
+        <h3>Owner's Area</h3>
+        <li class="list"><a href="#">Book a Service</a></li>
+        <br>
+        <li class="list" ><a href="#">Accessories</a></li>
+        <br>
+        <li class="list" ><a href="#">Lifestyle-Collection</a></li><br>
+        <li  class="list"><a href="#">GenuineParts</a></li>
+        
+        <br><li  class="list"><a href="#">Owner's Manual</a></li>
+    </div>
+</div>
+<hr class="last-hr">
+<div class="happy">
+    <h4><i class="fa-regular fa-copyright"></i>Weststar Association Limited 2024. All rights reserved</h4><P>Terms & Conditions</P><P>Cookie Policy</P><p>Data Protection</p>
+    <img class="face-image" src="images/facebook-logo-icon.webp" alt="">
+    <img class="face-image" src="images/youtube-icon.png" alt="">
+    <img class="face-image" src="images/instagram_icon.png" alt="">
+    <img class="face-image" src="images/linkedin-icon.png" alt="">
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,533 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.benz-logo-position{
+    background-color: black;
+    display: flex; 
+    color: white;
+    padding: 15px;
+    margin-bottom: 0px;
+
+}
+#benz-paragraph{
+    margin-left: 130px;
+    font-size: 33px;
+    position: absolute;
+    margin-top: 15px;
+    font-size: 30px;
+    /* margin-left: 90px; */
+    
+}
+#line-row{
+    border-color:grey;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav-bar{
+    padding: 15px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    z-index: 100;
+    
+    
+   
+    
+}
+.btn{
+    border: none;
+    background-color: black;
+    color: grey;
+    font-size: 17px;
+    padding: 15px;
+    position: relative;
+}
+
+.reason{
+  position: absolute;
+  z-index: 1;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 20px;
+    list-style: none;
+}
+
+.btn a:hover{
+    color: white;
+    /* border-top:0.5px solid blue ; */
+    border-top-style:groove;
+    border-top-color: blue ;
+    padding-top: 29px;
+    padding-bottom: 35px;
+    
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.dropdown-content{
+    display: none;
+    background-color:white;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: -20px;
+    position: absolute;
+    
+}
+ .btn:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    color: black;
+    
+} 
+.dropdown-content li a:visited
+{
+    color: black;
+}
+.dropdown-content li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-left: -200px; */
+    
+}
+.dropdown-content li a{
+    padding: 15px;
+    display: block;
+    border-radius: 10px;
+    column-width: 0px;
+    
+} 
+.dropdown-content li a:hover{
+    padding-inline: 0px;
+    background-color: rgb(204, 204, 204);
+    border-top-style: none;
+    padding-inline: 5px;
+    padding: 15px;
+    
+}
+/* our Models dropdown ends here */
+
+.dropdown1-content{
+    display: none;
+    background-color:white;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: -20px;
+    position: absolute;
+    
+}
+ .btn:hover .dropdown1-content{
+    display: block;
+    position: absolute;
+    color: black;
+    
+} 
+.dropdown1-content li a:visited
+{
+    color: black;
+    
+}
+.dropdown1-content li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-left: -200px; */
+    white-space: nowrap;
+    
+}
+.dropdown1-content li a{
+    padding: 15px;
+    display: block;
+    border-radius: 10px;
+    column-width: 0px;
+    
+} 
+.dropdown1-content li a:hover{
+    padding-inline: 0px;
+    background-color: rgb(204, 204, 204);
+    border-top-style: none;
+    padding-inline: 5px;
+    padding: 15px;
+    
+}
+/* buy drodown ends here */
+.dropdown2-content{
+    display: none;
+    background-color:white;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: -20px;
+    position: absolute;
+    
+}
+ .btn:hover .dropdown2-content{
+    display: block;
+    position: absolute;
+    color: black;
+    
+} 
+.dropdown2-content li a:visited
+{
+    color: black;
+}
+.dropdown2-content li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-left: -200px; */
+    white-space: nowrap;    
+}
+.dropdown2-content li a{
+    padding: 15px;
+    display: block;
+    border-radius: 10px;
+    column-width: 0px;
+    
+} 
+.dropdown2-content li a:hover{
+    padding-inline: 0px;
+    background-color: rgb(204, 204, 204);
+    border-top-style: none;
+    padding-inline: 5px;
+    padding: 15px;
+    
+}
+/* services dropdown  ends here */
+.dropdown3-content{
+    display: none;
+    background-color: white;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: -20px;
+    position: absolute;
+    
+}
+ .btn:hover .dropdown3-content{
+    display: block;
+    position: absolute;
+    color: black;
+    
+} 
+.dropdown3-content li a:visited
+{
+    color: black;
+}
+.dropdown3-content li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-left: -200px; */
+    white-space: nowrap;
+}
+.dropdown3-content li a{
+    padding: 15px;
+    display: block;
+    border-radius: 10px;
+    column-width: 0px;
+    
+} 
+.dropdown3-content li a:hover{
+    padding-inline: 0px;
+    background-color: rgb(204, 204, 204);
+    border-top-style: none;
+    padding-inline: 5px;
+    padding: 15px;
+    
+}
+/* Our brands dropdown  ends here */
+.dropdown4-content{
+    display: none;
+    background-color:white;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: -20px;
+    position: absolute;
+    
+}
+ .btn:hover .dropdown4-content{
+    display: block;
+    position: absolute;
+    color: black;
+    
+} 
+.dropdown4-content li a:visited
+{
+    color: black;
+}
+.dropdown4-content li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-left: -200px; */
+    white-space: nowrap;
+}
+.dropdown4-content li a{
+    padding: 15px;
+    display: block;
+    border-radius: 10px;
+    column-width: 0px;
+    
+} 
+.dropdown4-content li a:hover{
+    padding-inline: 0px;
+    background-color: rgb(204, 204, 204);
+    border-top-style: none;
+    padding-inline: 5px;
+    padding: 15px;
+}
+.sub-dropdown{
+    display: none;
+}
+.btn li:hover .sub-dropdown{
+    position: absolute;
+    display: block;
+    
+}
+.sub-dropdown{
+    margin-top: -58px;
+    margin-left: 400px;
+    white-space: nowrap;   
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+}
+.sub-dropdown li a:hover{
+    background-color:rgb(204, 204, 204);
+    padding: 15px;
+    column-width: 0px;
+}
+.sub-dropdown li a{
+    margin-left: -30px;
+}
+.contain{
+    background: url(images/mercedes_benz_gle_coupe_c167_stage_3840x1707_01_2023.webp);
+    background-repeat: no-repeat;
+
+    
+}
+.know-your-way{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 35px;
+}
+.first-button, .second-button{
+    margin-top: 350px;
+    position: absolute;
+    font-size: 17px;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px;
+    margin-left: 35px;
+}
+.first-button{
+    background-color: rgb(113, 113, 247);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.second-button{
+    margin-left: 230px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border: 0.5px solid grey;
+}
+.first-button:hover{
+    background-color: rgba(47, 47, 233, 0.842);
+    
+}
+.second-button:hover{
+    background-color: rgb(97, 97, 97);
+
+}
+button{
+    border: none;
+    background-color: white;
+    font-size: large;
+    padding: 20px;
+    color: rgb(153, 152, 152);
+}
+.button-container{
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 50px;
+    justify-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 67%;
+}
+.fa-angle-right{
+    margin-left: 300px;
+    
+    display: flex;   
+}
+
+.container{
+    background-color: rgba(19, 19, 19, 0);
+    height: 600px;
+    width: 100%; 
+    background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.897));
+    
+}
+#h1:after {
+    content: '\00E8';
+}
+#h1{
+    font-size: 55px;
+    position: absolute;
+    margin-top: 150px;
+    color: white;
+    margin-left: 35px;
+}
+.image-style{
+    height: 270px;
+    width: 400px;
+    animation: swiper;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count:1;
+    transition: all 0.5s;
+    margin-top: 50px;
+    margin-left: -130px;
+    margin-bottom: 150px;
+    
+
+}
+ 
+.swiper-slide:hover .image-style{
+    transform: scale(1.1);
+}
+.swiper-button{
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    border: 1px solid rgb(184, 184, 184);
+    color: black;
+    /* transform: translateY(20px); */
+    
+    /* margin-top: -200px; */
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+    animation: reason;
+    transform: translate(0px, 100px);
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count:1;
+    transition:bottom 0.3s ease-in-out;
+    bottom: -350px;
+    margin-left:-295px;
+
+    
+}
+.swiper-slide:hover .swiper-button{
+    /* transform: translate(0px, 100px); */
+    transform: translateY(20px);
+    opacity: 1;
+    bottom: 20px;
+    
+}
+.sed{
+    background-color: black;
+    border-radius:  50px 0px 0px 50px;
+    
+}
+.sed a{
+    color: white;
+}
+.sed-all a:hover{
+    color: white;
+
+}
+.sed-all:hover{
+    background-color: black;
+
+}
+.sed-all a{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.sed-all-last:hover{
+    background-color: black;
+    padding-left: 20px;
+    border-radius: 0px 50px 50px 0px;
+}
+.sed-all-last a:hover{
+    color: white;
+
+}
+.sed-all-last a{
+    padding-right: 16px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.sed-all-last{
+    background-color: transparent;
+}
+
+.swiper-p a{
+    color: rgb(88, 88, 255);
+    font-size: 15px;
+}
+.sub-swiper-slide{
+    /* position: absolute; */
+    margin-top: 0px;
+    margin-left: 100px;
+    display: block;
+    
+}
+/* .sub-swiper-slide1{
+    /* position: absolute; 
+    margin-top: 0px;
+    margin-left: 100px;
+    display: block;
+    
+} */
+.swiper-sedan{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    
+}
+.swiper-p{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 60px;
+}
+@keyframes swiper{
+    0%{transform: scale(1.1);}
+}
+
+@keyframes reason{
+
+    0%{opacity: 0%}
+    100%{transform: translate(0px, 100px);
+    opacity: 1%;}
+}
+.sect-sport{
+    /* margin-top: 500px; */
+    background-color:white;
+    
+}
+.sportlight-heading{
+    font-size: 40px;
+    position: relative;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+.sportlight-paragraph{
+    position: relative;
+    margin-left: 40px;
+}
